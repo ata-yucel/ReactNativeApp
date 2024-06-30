@@ -12,7 +12,6 @@ const loginSchema = Yup.object().shape({
 const Login = ({navigation}) => {
 
   const handleLogin = (value) => {
-    //API POST İŞLEMİ ATILIP LOGİN OLUNABİLİR
     navigation.navigate("Home")
   }
 
